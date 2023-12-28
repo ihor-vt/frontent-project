@@ -1,0 +1,59 @@
+/* Contact */
+.contact {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.contact__title {
+    font-size: 2.25rem;
+    letter-spacing: -0.04em;
+    line-height: 1;
+}
+
+.contact__desctiption {
+    font-size: 1.2rem;
+    max-width: 60ch;
+    margin: 1rem auto;
+}
+
+@media (max-width: 891px) {
+    .contact__title {
+        font-size: 2rem;
+    }
+
+    .contact__description {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 713px) {
+    .contact {
+        margin-top: 5rem;
+    }
+
+    .contact__title {
+        font-size: 1.5rem;
+    }
+
+    .contact__description {
+        font-size: 0.9rem;
+        margin: 0.5rem auto;
+    }
+
+    .contact__btn {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 495px) {
+    .contact__title {
+        font-size: 1.3rem;
+    }
+
+}
+
+@media (max-width: 396px) {
+    .contact__title {
+        font-size: 1.1rem;
+    }
+}
